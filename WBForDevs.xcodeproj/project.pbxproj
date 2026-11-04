@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD0000010000000000000001 /* WBForDevsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0000100000000000000001 /* WBForDevsApp.swift */; };
+		DD0000020000000000000001 /* DevWorkbenchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0000110000000000000001 /* DevWorkbenchView.swift */; };
+		DD0000030000000000000001 /* SandboxModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0000120000000000000001 /* SandboxModels.swift */; };
+		DD0000040000000000000001 /* SandboxBlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0000130000000000000001 /* SandboxBlocks.swift */; };
+		DD0000050000000000000001 /* NewBlockTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0000140000000000000001 /* NewBlockTemplate.swift */; };
+		DD0000060000000000000001 /* WBForDevsWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0000150000000000000001 /* WBForDevsWidgets.swift */; };
+		DD0000070000000000000001 /* SandboxModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0000120000000000000001 /* SandboxModels.swift */; };
+		DD0000080000000000000001 /* SandboxBlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0000130000000000000001 /* SandboxBlocks.swift */; };
+		DD0000090000000000000001 /* NewBlockTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0000140000000000000001 /* NewBlockTemplate.swift */; };
+		DD00000A0000000000000001 /* WBForDevsWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DD0000210000000000000001 /* WBForDevsWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DD00000B0000000000000001 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0000220000000000000001 /* WidgetKit.framework */; };
+		DD00000C0000000000000001 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0000230000000000000001 /* SwiftUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD0000300000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD0000990000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD0000410000000000000001;
+			remoteInfo = WBForDevsWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DD0000350000000000000001 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DD00000A0000000000000001 /* WBForDevsWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DD0000100000000000000001 /* WBForDevsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBForDevsApp.swift; sourceTree = "<group>"; };
+		DD0000110000000000000001 /* DevWorkbenchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevWorkbenchView.swift; sourceTree = "<group>"; };
+		DD0000120000000000000001 /* SandboxModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandboxModels.swift; sourceTree = "<group>"; };
+		DD0000130000000000000001 /* SandboxBlocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandboxBlocks.swift; sourceTree = "<group>"; };
+		DD0000140000000000000001 /* NewBlockTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBlockTemplate.swift; sourceTree = "<group>"; };
+		DD0000150000000000000001 /* WBForDevsWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBForDevsWidgets.swift; sourceTree = "<group>"; };
+		DD0000160000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD0000200000000000000001 /* WBForDevs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBForDevs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0000210000000000000001 /* WBForDevsWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WBForDevsWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0000220000000000000001 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		DD0000230000000000000001 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD0000500000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0000510000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD00000B0000000000000001 /* WidgetKit.framework in Frameworks */,
+				DD00000C0000000000000001 /* SwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD0000600000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				DD0000140000000000000001 /* NewBlockTemplate.swift */,
+				DD0000610000000000000001 /* WBForDevs */,
+				DD0000620000000000000001 /* WBForDevsWidgets */,
+				DD0000630000000000000001 /* Frameworks */,
+				DD0000640000000000000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD0000610000000000000001 /* WBForDevs */ = {
+			isa = PBXGroup;
+			children = (
+				DD0000100000000000000001 /* WBForDevsApp.swift */,
+				DD0000110000000000000001 /* DevWorkbenchView.swift */,
+				DD0000120000000000000001 /* SandboxModels.swift */,
+				DD0000130000000000000001 /* SandboxBlocks.swift */,
+			);
+			path = WBForDevs;
+			sourceTree = "<group>";
+		};
+		DD0000620000000000000001 /* WBForDevsWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				DD0000150000000000000001 /* WBForDevsWidgets.swift */,
+				DD0000160000000000000001 /* Info.plist */,
+			);
+			path = WBForDevsWidgets;
+			sourceTree = "<group>";
+		};
+		DD0000630000000000000001 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD0000220000000000000001 /* WidgetKit.framework */,
+				DD0000230000000000000001 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD0000640000000000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD0000200000000000000001 /* WBForDevs.app */,
+				DD0000210000000000000001 /* WBForDevsWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD0000400000000000000001 /* WBForDevs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD0000800000000000000001 /* Build configuration list for PBXNativeTarget "WBForDevs" */;
+			buildPhases = (
+				DD0000700000000000000001 /* Sources */,
+				DD0000500000000000000001 /* Frameworks */,
+				DD0000350000000000000001 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD0000310000000000000001 /* PBXTargetDependency */,
+			);
+			name = WBForDevs;
+			productName = WBForDevs;
+			productReference = DD0000200000000000000001 /* WBForDevs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD0000410000000000000001 /* WBForDevsWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD0000810000000000000001 /* Build configuration list for PBXNativeTarget "WBForDevsWidgets" */;
+			buildPhases = (
+				DD0000710000000000000001 /* Sources */,
+				DD0000510000000000000001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WBForDevsWidgets;
+			productName = WBForDevsWidgets;
+			productReference = DD0000210000000000000001 /* WBForDevsWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD0000990000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = DD0000820000000000000001 /* Build configuration list for PBXProject "WBForDevs" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD0000600000000000000001;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DD0000640000000000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD0000400000000000000001 /* WBForDevs */,
+				DD0000410000000000000001 /* WBForDevsWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD0000700000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0000010000000000000001 /* WBForDevsApp.swift in Sources */,
+				DD0000020000000000000001 /* DevWorkbenchView.swift in Sources */,
+				DD0000030000000000000001 /* SandboxModels.swift in Sources */,
+				DD0000040000000000000001 /* SandboxBlocks.swift in Sources */,
+				DD0000050000000000000001 /* NewBlockTemplate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0000710000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0000060000000000000001 /* WBForDevsWidgets.swift in Sources */,
+				DD0000070000000000000001 /* SandboxModels.swift in Sources */,
+				DD0000080000000000000001 /* SandboxBlocks.swift in Sources */,
+				DD0000090000000000000001 /* NewBlockTemplate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD0000310000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD0000410000000000000001 /* WBForDevsWidgets */;
+			targetProxy = DD0000300000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD0000900000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = MSKM5KHHZ8;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DD0000910000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = MSKM5KHHZ8;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DD0000920000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = WBForDevs/WBForDevs.entitlements;
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "WBForDevs/WBForDevs-macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MSKM5KHHZ8;
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "WB for Devs";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nonosthings.WBForDevs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD0000930000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = WBForDevs/WBForDevs.entitlements;
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "WBForDevs/WBForDevs-macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MSKM5KHHZ8;
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "WB for Devs";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nonosthings.WBForDevs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD0000940000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = WBForDevsWidgets/WBForDevsWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MSKM5KHHZ8;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_DEBUG_DYLIB = NO;
+				ENABLE_PREVIEWS = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WBForDevsWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "WB for Devs";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nonosthings.WBForDevs.Widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD0000950000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = WBForDevsWidgets/WBForDevsWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MSKM5KHHZ8;
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WBForDevsWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "WB for Devs";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nonosthings.WBForDevs.Widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD0000800000000000000001 /* Build configuration list for PBXNativeTarget "WBForDevs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0000920000000000000001 /* Debug */,
+				DD0000930000000000000001 /* Release */,
+			);
+			defaultConfigurationName = Release;
+		};
+		DD0000810000000000000001 /* Build configuration list for PBXNativeTarget "WBForDevsWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0000940000000000000001 /* Debug */,
+				DD0000950000000000000001 /* Release */,
+			);
+			defaultConfigurationName = Release;
+		};
+		DD0000820000000000000001 /* Build configuration list for PBXProject "WBForDevs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0000900000000000000001 /* Debug */,
+				DD0000910000000000000001 /* Release */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD0000990000000000000001 /* Project object */;
+}

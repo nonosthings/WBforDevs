@@ -1,0 +1,9 @@
+# Xcode user-specific data and build products
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+
+# Finder metadata and packaged Xcode projects
+.DS_Store
+*.xcodeproj.zip
